@@ -4,11 +4,11 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -124,6 +124,18 @@
     background: #111;
   }
   .logo img {
-    filter: invert(1);
+    /* filter: invert(1); */
   }
+}
+
+.navbar ul{
+  display: flex;
+  list-style: none;
+  font-weight: bold;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.navbar ul li{
+  padding-right: 1rem;
 }
